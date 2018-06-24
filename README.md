@@ -17,8 +17,9 @@ cv2
 
 # Structure
 
-![alt text](fig_1_model_structure.png)
-
+<p align="center">
+<img src="fig_1_model_structure.png" width="300">
+</p>
 
 
 # Usage
