@@ -95,8 +95,6 @@ if __name__ == '__main__':
 			prediction = sess.run(y, feed_dict={input_layer: np.expand_dims(training_set[i][j], 0)})
 			if np.equal(np.argmax(prediction), np.argmax(label_set[i][j])):
 				correct_count = correct_count + 1
-			else:
-				print(np.argmax(prediction))
 
 	print("Accuracy:")
 	print(1.0 * correct_count / 2)
