@@ -17,7 +17,7 @@ cv2
 
 # Structure
 
-![alt text](fig_1_model_structure.pdf)
+![alt text](fig_1_model_structure.png)
 
 
 
